@@ -1,0 +1,12 @@
+# INMP441 
+
+Se você tem interesse de saber como eu usei esse microfone, por favor, abra uma Issue e comente que quer a documentação, ai eu documento o repositório kkkkk 
+
+
+## Testando o microfone 
+
+1. Para testar o microfone INMP441 basta fazer upload do Firmware em src/main.cpp 
+2. Dentro da pasta test/ existe um arquivo chamado `mic.py` usado para ouvir a saída do microfone no próprio computador. Para executar o `mic.py` recomenda-se fortemente fazer:
+    - Crie um ambiente virtual dentro da pasta `MICS3/test/` dando um: `python -m venv venv`
+    - Ative o ambiente virtual: `source venv/bin/activate`
+    - Instale as dependências: `pip install -r requirements.txt`
